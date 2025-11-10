@@ -1,0 +1,11 @@
+Installing trivy:
+-> wget -O trivy.tar.gz https://github.com/aquasecurity/trivy/releases/download/v0.54.1/trivy_0.54.1_Linux-64bit.tar.gz
+After installing it shows below file;
+-> trivy.tar.gz 
+Now extract the above file:
+tar -zxvf trivy.tar.gz trivy
+Then move tge ifle:
+sudo mv trivy /usr/local/bin/
+then check version:
+trivy --version
+Version: 0.54.1
